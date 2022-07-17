@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="16"
+   fill="currentColor"
+   class="bi bi-boxes"
+   viewBox="0 0 64 16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="logo1.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     width="17px"
+     inkscape:zoom="10.65625"
+     inkscape:cx="26.604106"
+     inkscape:cy="9.3372434"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="m 7.752,0.066 a 0.5,0.5 0 0 1 0.496,0 l 3.75,2.143 a 0.5,0.5 0 0 1 0.252,0.434 v 3.995 l 3.498,2 A 0.5,0.5 0 0 1 16,9.07 v 4.286 a 0.5,0.5 0 0 1 -0.252,0.434 l -3.75,2.143 a 0.5,0.5 0 0 1 -0.496,0 L 8,13.933 4.498,15.934 a 0.5,0.5 0 0 1 -0.496,0 L 0.252,13.791 A 0.5,0.5 0 0 1 0,13.357 V 9.071 A 0.5,0.5 0 0 1 0.252,8.637 L 3.75,6.638 V 2.643 A 0.5,0.5 0 0 1 4.002,2.209 Z M 4.25,7.504 1.508,9.071 4.25,10.638 6.992,9.071 Z M 7.5,9.933 4.75,11.504 v 3.134 L 7.5,13.067 Z m 1,3.134 2.75,1.571 V 11.504 L 8.5,9.933 Z M 9.008,9.071 11.75,10.638 14.492,9.071 11.75,7.504 Z M 11.25,6.638 V 3.504 L 8.5,5.076 V 8.21 Z M 7.5,8.21 V 5.076 L 4.75,3.504 V 6.638 Z M 5.258,2.643 8,4.21 10.742,2.643 8,1.076 Z M 15,9.933 12.25,11.504 v 3.134 L 15,13.067 Z M 3.75,14.638 V 11.504 L 1,9.933 v 3.134 z"
+     id="path2"
+     style="fill:#f88f24;fill-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:8px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     x="17.454546"
+     y="14.451612"
+     id="text2499"><tspan
+       sodipodi:role="line"
+       id="tspan2497"
+       x="17.454546"
+       y="14.451612"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="tspan7121">Micro</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f88f24;fill-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan11301">Code</tspan></tspan></text>
+</svg>
