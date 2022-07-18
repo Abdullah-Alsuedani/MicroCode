@@ -43,32 +43,32 @@ window.onscroll = function () {
             Content.style.animation="running";
         });
     }
-    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[0].offsetTop -750)) {
+    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[0].offsetTop -650)) {
         servicesText[0].style.animation = "running";
         servicesImg[0].style.animation = "running";
     }
-    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[1].offsetTop -750)) {
+    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[1].offsetTop -650)) {
         servicesText[1].style.animation = "running";
         servicesImg[1].style.animation = "running";
     }
-    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[2].offsetTop -750)) {
+    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[2].offsetTop -650)) {
         servicesText[2].style.animation = "running";
         servicesImg[2].style.animation = "running";
     }
-    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[3].offsetTop -750)) {
+    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[3].offsetTop -650)) {
         servicesText[3].style.animation = "running";
         servicesImg[3].style.animation = "running";
     }
-    if (window.scrollY >= ServicesTitle.offsetParent.offsetTop - 750) {
+    if (window.scrollY >= ServicesTitle.offsetParent.offsetTop - 650) {
         ServicesTitle.style.animation="running";
     }
-    if (window.scrollY >= clientsTitle.offsetParent.offsetTop - 750) {
+    if (window.scrollY >= clientsTitle.offsetParent.offsetTop - 650) {
         clientsTitle.style.animation="running";
     }
-    if (window.scrollY >= companies.offsetParent.offsetTop - 750) {
+    if (window.scrollY >= companies.offsetParent.offsetTop - 650) {
         companies.style.animation="running";
     }
-    if (window.scrollY >= stats.offsetParent.offsetTop - 750) {
+    if (window.scrollY >= stats.offsetParent.offsetTop - 650) {
         stats.style.animation="running";
         if(!started){
             nums.forEach((num) => {startCount(num)});
