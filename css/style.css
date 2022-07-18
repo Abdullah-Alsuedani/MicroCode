@@ -620,6 +620,129 @@ ul{
 .clients .stats .box p{
     font-weight: 500;
 }
+/* Contact */
+.contact{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    position: relative;
+    overflow: hidden;
+}
+.contact .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-top: 80px;
+}
+.contact .card{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    padding: 30px;
+    border-radius: 4px;
+    width: 335px;
+    height: 491px;
+}
+.contact .card h3{
+    text-align: center;
+    margin: 0 auto 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.contact .card p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 1.6;
+}
+.contact .card div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.contact .card div i{
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.contact .card div p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.contact form {
+    width: 60%;
+    position: relative;
+}
+.contact form .first-name,
+.contact form .last-name{
+    display: inline-block;
+}
+.contact form label{
+    display: block;
+    margin-bottom: 10px;
+    color: var(--white-color);
+    font-size: 15px;
+}
+.contact form input:focus{
+    outline: none;
+}
+.contact form input:not([type="submit"]){
+    padding: 15px 30px;
+    border: 2px solid var(--main-color);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    caret-color: var(--white-color);
+}
+.contact form div{
+    width: 45%;
+}
+.contact form div input{
+    width: 100%;
+}
+.contact form .first-name{
+    margin-right: 50px;
+}
+.contact form input[type="email"]{
+    width: 100%;
+}
+.contact form textarea{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 15px 30px;
+    border: 2px solid var(--main-color);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    caret-color: var(--white-color);
+    font-family: inherit;
+}
+.contact form textarea:focus{
+    outline: none;
+}
+.contact ::placeholder{
+    font-size: 15px;
+    color: var(--green-color);
+}
+.contact form input[type="Submit"]{
+    padding: 15px 45px 15px 30px;
+    font-size: 15px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+}
+.contact form input[type="Submit"]:focus{
+    outline: none;
+}
+.contact form i{
+    color: var(--white-color);
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
 /* Animations */
 @keyframes left-show {
     from{
