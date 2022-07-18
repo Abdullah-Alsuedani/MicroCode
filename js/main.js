@@ -35,40 +35,40 @@ let companies = document.querySelector(".clients .companies");
 let stats = document.querySelector(".clients .stats");
 
 window.onscroll = function () {
-    if (window.scrollY >= aboutTitle.offsetParent.offsetTop - 500) {
+    if (window.scrollY >= aboutTitle.offsetParent.offsetTop - 250) {
         aboutTitle.style.animation="running";
     }
-    if (window.scrollY >= aboutContent[0].offsetParent.offsetTop - 500) {
+    if (window.scrollY >= aboutContent[0].offsetParent.offsetTop - 250) {
         aboutContent.forEach((Content) => {
             Content.style.animation="running";
         });
     }
-    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[0].offsetTop -500)) {
+    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[0].offsetTop -750)) {
         servicesText[0].style.animation = "running";
         servicesImg[0].style.animation = "running";
     }
-    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[1].offsetTop -500)) {
+    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[1].offsetTop -750)) {
         servicesText[1].style.animation = "running";
         servicesImg[1].style.animation = "running";
     }
-    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[2].offsetTop -500)) {
+    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[2].offsetTop -750)) {
         servicesText[2].style.animation = "running";
         servicesImg[2].style.animation = "running";
     }
-    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[3].offsetTop -500)) {
+    if (window.scrollY >= (servicesSection.offsetTop + servicesRow[3].offsetTop -750)) {
         servicesText[3].style.animation = "running";
         servicesImg[3].style.animation = "running";
     }
-    if (window.scrollY >= ServicesTitle.offsetParent.offsetTop - 500) {
+    if (window.scrollY >= ServicesTitle.offsetParent.offsetTop - 750) {
         ServicesTitle.style.animation="running";
     }
-    if (window.scrollY >= clientsTitle.offsetParent.offsetTop - 500) {
+    if (window.scrollY >= clientsTitle.offsetParent.offsetTop - 750) {
         clientsTitle.style.animation="running";
     }
-    if (window.scrollY >= companies.offsetParent.offsetTop - 500) {
+    if (window.scrollY >= companies.offsetParent.offsetTop - 750) {
         companies.style.animation="running";
     }
-    if (window.scrollY >= stats.offsetParent.offsetTop - 500) {
+    if (window.scrollY >= stats.offsetParent.offsetTop - 750) {
         stats.style.animation="running";
         if(!started){
             nums.forEach((num) => {startCount(num)});
