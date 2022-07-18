@@ -634,6 +634,12 @@ ul{
     gap: 60px;
     margin-top: 80px;
 }
+@media (max-width: 991px) {
+    .contact .container{
+        flex-direction: column;
+        gap: 120px;
+    }
+}
 .contact .card{
     background-color: var(--main-color);
     color: var(--white-color);
@@ -641,6 +647,11 @@ ul{
     border-radius: 4px;
     width: 335px;
     height: 491px;
+}
+@media (max-width: 991px) {
+    .contact .card{
+        order: 2;
+    }
 }
 .contact .card h3{
     text-align: center;
@@ -672,6 +683,11 @@ ul{
     width: 60%;
     position: relative;
 }
+@media (max-width: 991px) {
+    .contact form{
+        width: 100%;
+    }
+}
 .contact form .first-name,
 .contact form .last-name{
     display: inline-block;
@@ -701,6 +717,26 @@ ul{
 }
 .contact form .first-name{
     margin-right: 50px;
+}
+@media (max-width: 991px) {
+    .contact form .first-name{
+        margin-right: 65px;
+    }
+}
+@media (max-width: 767px) {
+    .contact form .first-name{
+        margin-right: 48px;
+    }
+}
+@media (max-width: 576px) {
+    .contact form .first-name{
+        margin-right: 40px;
+    }
+}
+@media (max-width: 415px) {
+    .contact form .first-name{
+        margin-right: 30px;
+    }
 }
 .contact form input[type="email"]{
     width: 100%;
