@@ -70,21 +70,24 @@ window.onscroll = function () {
     }
     if (window.scrollY >= stats.offsetParent.offsetTop - 500) {
         stats.style.animation="running";
+        if(!started){
+            nums.forEach((num) => {startCount(num)});
+        }
+        started = true;
     }
 };
 
 // Stats Increase Number
 
-let nums = document.querySelectorAll(".stats h3 span");
-
-nums.forEach((num) => {startCount(num)})
+let nums = document.querySelectorAll(".stats .box h3 span");
+let started = false;
 
 function startCount(el) {
     let goal = el.dataset.goal;
     let count = setInterval(() => {
         el.textContent++;
-        if (el.textContent = goal) {
+        if (el.textContent == goal) {
             clearInterval(count);
         }
-    }, 20)
+    }, 2000 / goal)
 }
