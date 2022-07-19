@@ -34,6 +34,12 @@ let clientsTitle = document.querySelector(".clients .title");
 let companies = document.querySelector(".clients .companies");
 let stats = document.querySelector(".clients .stats");
 
+let contactSection = document.querySelector(".contact")
+let card = document.querySelector(".contact .card");
+let form = document.querySelector(".contact form");
+
+let socialCont = document.querySelector(".landing .info .social");
+
 window.onscroll = function () {
     if (window.scrollY >= aboutTitle.offsetParent.offsetTop - 250) {
         aboutTitle.style.animation="running";
@@ -75,8 +81,19 @@ window.onscroll = function () {
         }
         started = true;
     }
+    if(window.scrollY >= (card.offsetTop + contactSection.offsetTop - 650)){
+        card.style.animation="running";
+    }
+    if(window.scrollY >= (form.offsetTop + contactSection.offsetTop -650)){
+        form.style.animation="running";
+    }
+    if(window.scrollY >= contactSection.offsetTop - 650){
+        socialCont.style.transform="translateX(-300px)";
+    }
+    else if(window.scrollY <= contactSection.offsetTop){
+        socialCont.style.transform="translateX(0)"
+    }
 };
-
 // Stats Increase Number
 
 let nums = document.querySelectorAll(".stats .box h3 span");
